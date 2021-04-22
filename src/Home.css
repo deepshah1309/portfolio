@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+.boxes{
+    margin:20px;
+    
+   background-color: whitesmoke;
+    overflow: hidden;
+    height:auto;
+    text-align: center;
+    box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+    border-radius: 10px 10px 10px 10px;
+}
+.introduction{
+    margin-top:150px;
+   
+background-color:whitesmoke;
+
+}
+.fontsets{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.fontsets1{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color:teal;
+}
+.fontset{
+    font-family: 'Bree Serif', serif;
+    font-size:2rem;
+    font-weight:bolder;
+    color:black;
+}
+.msu{
+    
+}
+.fontset2{
+    font-family: 'Bree Serif', serif;
+    font-weight: bolder;
+    font-size:1.5rem;
+
+}
