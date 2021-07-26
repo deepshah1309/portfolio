@@ -2,26 +2,26 @@
 import Home from './Home';
 import './App.css';
 
-import {Route,Switch} from 'react-router-dom';
+import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-   
+   <Router>
      <Switch>
-          <Route exact path="/">
+          <Route exact path="/portfolio/">
             <Home/>
           </Route>
-          <Route path="/Contact">
+          <Route exact path="/portfolio/Contact">
 
           </Route>
-          <Route path="/internships">
+          <Route path="/portfolio/internships">
               Internships
           </Route>
-          <Route path="/projects">
+          <Route exact path="/portfolio/Projects">
             Projects
           </Route>
         </Switch>
-
+   </Router>
    </div>
   );
 }

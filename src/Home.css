@@ -39,3 +39,11 @@ background-color:whitesmoke;
     font-size:1.5rem;
 
 }
+.cvx{
+    height:100vh;
+    padding-top:190px;
+}
+.thankyou_message{
+    display:none;
+    font-weight: bolder;
+}
